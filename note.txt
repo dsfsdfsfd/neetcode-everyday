@@ -1,0 +1,22 @@
+- sort() : 
+    + chỉ sử dụng với list
+    + sắp xếp ngay tại vị trí chỗ của phần tử trong list(nếu gán biến -> None)
+    + có key, reverse
+
+- sorted() -> List: 
+    + sắp xếp các phần tử ở trong một list, set, tuple.
+    + reverse - sắp xếp đảo ngược, key - sắp xếp theo phần tử tùy chỉnh
+    >>> multidimensional_array = [[1, 3], [4,0], [2,1], [7,3], [9,9]]
+    >>> sorted(multidimensional_array, key=lambda x:x[1])
+    [[4, 0], [2, 1], [1, 3], [7, 3], [9, 9]]
+
+
+- isalnum():
+    + Return True if the string is an alpha-numeric(kí tự - số) string, False otherwise.
+
+- lặp qua từng kí tự trong chuỗi string s: (for c in s)
+
+- string == string[::-1] - kiểm tra chuỗi ban đầu với chuỗi đảo ngược
+
+-
+    
